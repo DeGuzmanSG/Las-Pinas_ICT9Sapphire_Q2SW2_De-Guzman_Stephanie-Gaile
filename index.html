@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Robotics Club Registration Form</title>
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+
+		.container {
+			background-color: black;
+			border: groove;
+			opacity: 0.7;
+
+		color: white;
+		}
+		body {
+			background-image: url(cyberpunk.png);
+		}
+
+		
+
+	</style>
+
+</head>
+<body>
+
+<div class="container p-5 mt-5">
+<h1 style="text-align: center;"> Robotics CLub Registrastion Form </h1>
+
+<div class="row">
+
+<div class="col">	
+<label>Name (Surname, First Name Middle Initial) </label>
+	<input type="text" class="form-control" id="user" placeholder="Brown, Ben J." required>
+</div>
+
+<br>
+
+<div class="col">
+<label>Age</label>
+	<input type="text" class="form-control" id="user" placeholder="Type Here" required>
+</div>
+
+</div>
+
+<br>
+<div class="row">
+<div class="col">
+<label>Email Address</label>
+	<input type="email" class="form-control" id="user" placeholder="robotics@gmail.com" required>
+</div>
+
+<br>
+
+<div class="col">
+<label>Phone Number</label>
+	<input type="text" class="form-control" id="user" placeholder="Type Here" required>
+</div>
+
+<br>
+
+</div>
+<br>
+<br>
+
+<div class="form-check">
+		<h4>Preferred Robotics Topics</h4>
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input" value=""><a src="https://www.onlinerobotics.com/news-blog/understanding-5-primary-areas-robotics">Operator Interface</a>
+		</label>
+
+		<br>
+
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input" value="">
+		</label>
+
+		<br>
+
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input" value="">
+			Manipulators & Effectors
+		</label>
+
+		<br>
+
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input" value="">
+			Programming
+		</label>
+
+		<br>
+
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input" value="">
+			Sensing & Perception
+		</label>
+		
+	</div>
+
+		<br>
+		<br>
+		
+	<h4>How experienced are you in robotics?</h4>
+	<label class="form-check-label">
+			<input type="radio" class="form-check-input" name="optradio"> Beginner ; barely has knowledge about it (but is willing to learn) or just started recently
+		</label>
+		
+		<br>
+
+			<input type="radio" class="form-check-input" name="optradio"> Intermediate ; knows a decent amount of things about robotics, started a while ago or already joined a robotics club at some point
+		</label>
+
+		<br>
+
+		<input type="radio" class="form-check-input" name="optradio"> Advanced ; knows a lot already about robotics, started long ago
+		</label>
+
+		<br>
+		<br>
+
+		<div class="form-group">
+		<h4>Project You Want to Work on the Most</h4>
+		<label for="sel1">Select List:</label>
+		<select class="form-control" id="sel1">
+			<option>Robot</option>
+			<option>Crane</option>
+			<option>Remote-Controlled Car</option>
+			
+		</select>	
+
+		<br>
+		<br>
+		
+
+		<h4>Why do YOU want to join? </h4>
+		<label> List your reasons here!</label>
+	<textarea class="form-control" rows="6" id="comment" placeholder="Type Here"></textarea>
+
+	<br>
+
+	
+	<button type="submit" class="btn btn-outline-primary">Submit Form</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
